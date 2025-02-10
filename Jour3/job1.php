@@ -1,4 +1,11 @@
 <?php
+class Professeur {
+    private $matiereEnseignee;
+
+    public function enseigner() {
+        echo "Le cours va commencer" ;
+    }
+}
 
 class Personne {
     private $age;
